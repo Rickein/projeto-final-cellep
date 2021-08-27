@@ -8,41 +8,54 @@ body{
     width: 100%;
     height: 700px;
 }
+.nav-item :hover{
+background-color: rgb(73, 73, 75);
+}
 
+.nav-item{
+    letter-spacing: 2px;
+    font-size: 20px;
+
+}
 
 /* estilo pagina banda */
 .banda{
     text-align: center;
     margin-left: 100px;
-    margin-right: 50px;
     margin-top: 50px;
     margin-bottom: 50px;
     margin-right: 50px;
     align-items: center;
+    height: 650px;
 }
 
 .col-md-4 img{
     border: 3px solid #4d4e4c;
 }
 
-.banda h2{
+#banda h2,h6{
     letter-spacing: 4px;
+    color: black;
+    text-align: center;
 }
 
 .container {
  text-align: center;
  margin-top: 50px;
+ height: 750px;
  
 }
 
 .container ul li{
     list-style-type: none;
-    color: white
-
+    color: white;
+    align-items: center;
+    font-size: 25px;
 }
 
 .container h2,p{
    color: white;
+   font-size: 20px;
 }
 
 .nossotour{
@@ -52,13 +65,11 @@ body{
 
 }
 
-
-
 .contato{
-    border: 3px solid #4d4e4c;
     width: 90%;
     height: 350px;
     margin-left: 1%;
+    margin-bottom: 100px;
 }
 
 .formulario{
@@ -66,14 +77,37 @@ body{
     margin-top: 30px;
     display: inline-block;
     margin-left: 10%;
+    border: 1px solid #4d4e4c3f;
+    padding: 30px;  
+}
+.formulario input{
+    margin: 10px;
 }
 
 .contatos{
     display: inline-block;
-    float: left;
     margin-left: 40px;
+    border: 10px;
 }
 
-.containercontato h2,p{
+.containercontato h2,h6{
     text-align: center;
+}
+
+.containercontato{
+    align-items: center;
+    margin-left: 200px;
+}
+
+.rodape{
+    background-color: black;
+    border: 2px solid #4d4e4c;
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    align-items: center;
+    font-size: 40px;
+    color: rgb(245, 245, 248);
+    letter-spacing: 4px;
+    padding-top: 20px
 }
